@@ -1,3 +1,5 @@
+# Ryo-san's code 
+
 from collections import Counter
 
 name = 'yamada'
