@@ -1,6 +1,3 @@
-from prometheus_client import Counter
-
-
 from collections import Counter
 
 name = "yamada"
