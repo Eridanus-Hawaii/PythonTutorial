@@ -9,7 +9,7 @@ def old_counter_to_string(my_map):
 def counter_to_string(my_map):
     my_str = ''
     for letter in my_map:
-#       print("letter:",letter, "my_map[letter]:", my_map[letter])
+        print("letter:",letter, "my_map[letter]:", my_map[letter])
         for i in range(my_map[letter]):
             my_str += letter
     return my_str
