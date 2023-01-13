@@ -34,7 +34,7 @@ def find_anagrams(name, word_list):
             print(word)
 
 def ignore_space_join(str):
-    return ''.join(choice.lower().split())
+    return ''.join(str.lower().split())
 
 def process_choice_pure(target_name, choice_name):
     print("本当はアナグラム", target_name, "から", choice_name, "を探す")
