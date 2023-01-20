@@ -1,4 +1,5 @@
 from collections import Counter
+import sys
 
 def old_counter_to_string(my_map):
     s = ''
@@ -50,7 +51,7 @@ def process_choice(name):
         else:
             candidate = ''.join(choice.lower().split())
             
-        choice = candidate;
+        choice = candidate
         result = process_choice_pure(name, choice)
         return result
 
