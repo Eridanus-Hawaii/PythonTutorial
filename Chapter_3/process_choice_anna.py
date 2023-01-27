@@ -4,6 +4,15 @@ def delete_space_join(str):
     return ''.join(str.lower().split())
 
 
+def remove_word(name, choice):
+    candidate = ''.join(choice.lower().split())
+    left_over_list = list(name)
+    for letter in candidate:
+        if letter in left_over_list:
+            left_over_list.remove(letter)
+    return left_over_list, candidate
+
+
 def process_choice(name):
     while True:
         choice = input('\n単語入れてね。エンターしたら終了。# でも終了:')
