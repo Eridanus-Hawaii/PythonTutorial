@@ -1,4 +1,9 @@
 import sys
+
+def delete_space_join(str):
+    return ''.join(str.lower().split())
+
+
 def process_choice(name):
     while True:
         choice = input('\n単語入れてね。エンターしたら終了。# でも終了:')
@@ -18,7 +23,12 @@ def process_choice_pure(target_name, choice_name):
     print('本当はアナグラム', target_name, 'から', choice_name, 'を探す')
     return target_name
 
+
 if __name__ == '__main__':
     name = sys.argv[1]
-    phrase = process_choice_pure(name)
-    print("process_choice, name:", phrase)
+    choice = sys.argv[2]
+    #phrase = process_choice_pure(name, choice)
+    #print("process_choice, name:", phrase)
+    print('target is:', name)
+    result = delete_space_join(name)
+    print('result is:', result)
