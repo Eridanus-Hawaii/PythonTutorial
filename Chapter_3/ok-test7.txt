@@ -1,0 +1,8 @@
+本当はアナグラム yamada から yama を探す
+process_choice, name: yamada
+本当はアナグラム tanaka から naka を探す
+process_choice, name: tanaka
+本当はアナグラム suzuki から suzu を探す
+process_choice, name: suzuki
+本当はアナグラム araki から ai を探す
+process_choice, name: araki
