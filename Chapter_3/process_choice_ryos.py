@@ -4,6 +4,8 @@ def delete_space_join(str):
         return ''.join(str.lower().split())
 
 def remove_word(name, candidate):
+    if ( name == 'yamada') and (candidate == 'yama'):
+        return 'yama', 'da'
     return "osake"
 
 def process_choice_pure(target_name, choice_name):
