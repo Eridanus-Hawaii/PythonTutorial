@@ -4,13 +4,25 @@ def delete_space_join(str):
     return ''.join(str.lower().split())
 
 
-def remove_word(name, choice):
-    candidate = ''.join(choice.lower().split())
+def remove_word(name, candidate):
+    #candidate = ''.join(choice.lower().split())
     left_over_list = list(name)
     for letter in candidate:
         if letter in left_over_list:
             left_over_list.remove(letter)
-    return left_over_list, candidate
+
+    result = True
+    if (candidate == 'taxori'):
+        result = False
+    if (candidate == 'tapori'):
+        result = False
+
+    if result:
+        remain = ''.join(left_over_list)
+        return (candidate, remain)
+    else:
+        # NG
+        return None
 
 
 def process_choice(name):
