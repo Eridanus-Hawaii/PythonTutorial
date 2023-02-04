@@ -1,5 +1,5 @@
 import sys
-from process_choice_anna import remove_word
+from process_choice_ryos import remove_word
 
 if __name__ == '__main__':
     name = sys.argv[1]
