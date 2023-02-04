@@ -10,7 +10,8 @@ def remove_word(name, choice):
     for letter in candidate:
         if letter in left_over_list:
             left_over_list.remove(letter)
-    return left_over_list, candidate
+    remain = ''.join( left_over_list)
+    return candidate, remain
 
 
 def process_choice(name):
