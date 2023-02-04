@@ -23,12 +23,16 @@ def process_choice(name):
         result = process_choice_pure(name, choice)
         return result
 
-def remove_word(name, choice):
+def remove_word(name, candidate):
     left_over_list = list(name)
-    candidate = ''.join(choice.lower().split())
     for letter in candidate:
         if letter in left_over_list:
             left_over_list.remove(letter)
+        else:
+            return None
+
+    remain = ''.join(left_over_list)
+    return(remain, candidate)
 
 
 if __name__ == '__main__':
