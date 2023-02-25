@@ -4,9 +4,14 @@ def delete_space_join(str):
         return ''.join(str.lower().split())
 
 def remove_word(name, candidate):
-    if ( name == 'yamada') and (candidate == 'yama'):
-        return 'yama', 'da'
-    return "osake"
+    left_over_list = list(name)
+    for letter in candidate:
+        if letter in left_over_list:
+            left_over_list.remove(letter)
+        else: 
+            return None
+    remain = ''.join(left_over_list)
+    return (candidate, remain)
 
 def process_choice_pure(target_name, choice_name):
     print("本当はアナグラム", target_name, "から", choice_name, "を探す")
