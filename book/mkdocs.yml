@@ -1,5 +1,5 @@
 site_name: Eridanus Hawaii
 
 nav:
-    index.md
-    first-step.md
+    - index.md
+    - first-step.md
