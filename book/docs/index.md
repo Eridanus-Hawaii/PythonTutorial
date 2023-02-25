@@ -1,4 +1,7 @@
-# Welcome to MkDocs
+# Welcome to Eridanus Hawaii
+
+Python の Tutorial を作ります。
+書籍化するのと Udemy のコンテンツにします。
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
