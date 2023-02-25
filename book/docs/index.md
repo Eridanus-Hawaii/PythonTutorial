@@ -3,6 +3,21 @@
 Python の Tutorial を作ります。
 書籍化するのと Udemy のコンテンツにします。
 
+## ドキュメントを読め のサイト
+[read the doc](https://www.readthedoc.org).
+
+## Udemy のトップ
+[Udemy](https://www.udemy.com).
+
+## ノートでちょっと書いた
+
+[ananlychee](https://note.com/ananlychee/)
+[Python を学ぼう](https://note.com/hanataaalk/m/m6f8bf3805b9d)
+
+## 最初の一歩
+[first step](first-step)
+
+# MkDocs 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
