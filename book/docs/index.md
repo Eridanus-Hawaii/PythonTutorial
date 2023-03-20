@@ -40,6 +40,14 @@ Numpy例題
 - String その2(https://note.com/ananlychee/n/n876723471f6e) 
 - Input と自動化(https://note.com/ananlychee/n/n0b3fde170b6d)
 
+## hanataaalk
+- pythonを学ぼう！vol．1 (https://note.com/hanataaalk/n/n37d6382b53c9)
+- pythonを学ぼう！vol．2 (https://note.com/hanataaalk/n/n4ee5d3e1f4c4)
+- pythonを学ぼう！vol．3 (https://note.com/hanataaalk/n/n577f5179936d)
+- Pythonを学ぼう！-関数- (https://note.com/hanataaalk/n/n84fe210bc05c)
+- Pythonを学ぼう！ -Turtle編- (https://note.com/hanataaalk/n/n5e60f6545178)
+- Pythonを学ぼう！ -Turtle編2- (https://note.com/hanataaalk/n/na18adce02728)
+
 ## 最初の一歩
 [first step](first-step)
 
