@@ -20,7 +20,7 @@ for i, e  in enumerate(order):
     honto_text[e] = cypher_text[i]
     my_view(honto_text)
     print("============")
-    time.sleep(1)
+    #time.sleep(1)
 
 print(honto_text)
 
@@ -31,6 +31,8 @@ print(honto_text)
 12  13   14    15
 16  17   18    19
 """
+
+(16, -4, 5) => 16, 12, 8, 4, 0
 
 def func4(start, span, n):
     x = start
