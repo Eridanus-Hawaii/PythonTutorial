@@ -1,4 +1,5 @@
 def func4(start, delta, n, lst):
+    # 暗号解読のためのヒントの文字列の一列目のみをつくろう
     my_end = start + delta * n
     for i in range(start, my_end, delta):
         #print(i)
