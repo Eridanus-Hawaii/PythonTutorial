@@ -28,3 +28,30 @@ def my_init():
     for i in range(20):
         honto_text.append(i)
     return honto_text
+
+
+def make_num_list(s, d, n, lst):
+    for i in range(n):
+        lst.apppend(s)
+        s += d
+    print(lst)
+
+my_lst = []
+make_num_list(16, -4, 5, my_lst)
+make_num_list(1, 4, 5, my_lst)
+make_num_list(18, -4, 5, my_lst)
+make_num_list(3, 4, 5, my_lst)
+
+alist = [(16, -4, 5), (1, 4, 5), (18, -4, 5), (3, 4, 5)]
+
+my_lst = []
+for e in alist:
+    make_num_list(e[0], e[1], e[2], my_lst)
+
+blist = [-1, 2, -3, 4]
+
+def make_t(n):
+    x = (n - 1, 4, 5)
+    print(x)
+
+print(make_t(2))
