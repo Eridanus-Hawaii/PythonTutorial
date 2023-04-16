@@ -25,12 +25,23 @@ def func_x(x, lst):
     print(p0, p1, p2)
     func4(p0, p1, p2, lst)
 
-def func_nantoka(x):
+def func5(x):
     if x == 1:
         return 0
     elif x == 2:
         return 1
-
+    elif x == 3:
+        return 2
+    elif x == 4:
+        return 3
+    elif x == -1:
+        return -16
+    elif x == -2:
+        return -17
+    elif x == -3:
+        return -18
+    elif x == -4:
+        return -19
 
 
 new_lst = []
