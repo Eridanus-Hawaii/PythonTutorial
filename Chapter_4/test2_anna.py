@@ -30,7 +30,7 @@ def func_x(x, lst):
     p2 = 5
     func4(p0, p1, p2, lst)
 
-p2 =  [-16, 1, -18, 3]
+p2 =  [-16, 1, -18, 3] # starting point with direction heading to 
 for e in p2:
     func_x(e, new_lst)
 
@@ -55,5 +55,10 @@ def ff(lst):
     return new_lst
 
 
-# updated 4/5
-# add extra 
+def func_nantoka(x):
+    if x == 1:
+        return 0 
+    elif x== 2: 
+        return 1
+
+# updated 4/16
