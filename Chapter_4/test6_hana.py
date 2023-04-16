@@ -50,3 +50,6 @@ p2 = [-16, 1, -18, 3]
 
 for e in p2:
     func_x(e, new_lst)
+
+a0 = func5(3)
+print(a0)
