@@ -47,9 +47,16 @@ def func5(x):
 new_lst = []
 
 p2 = [-16, 1, -18, 3]
-
 for e in p2:
     func_x(e, new_lst)
 
-a0 = func5(3)
-print(a0)
+new_lst = []
+p3 = [-1, 2, -3, 4]
+
+for e in p3:
+    func_x(func5(e), new_lst)
+
+print(new_lst)
+
+#a0 = func5(3)
+#print(a0)
