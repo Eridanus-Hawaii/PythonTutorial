@@ -1,17 +1,32 @@
-def to_start_pos(x):
-    if x == 1:
-        return 0
-    elif x == 2:
+width = 4
+height = 5
+
+def sign(x):
+    # マイナスか、プラスか、ゼロかを判定
+    if x < 0 :
+        return -1
+    elif x > 0:
         return 1
-    elif x == 3:
-        return 2
-    elif x == 4:
-        return 3
-    elif x == -1:
-        return -16
-    elif x == -2:
-        return -17
-    elif x == -3:
-        return -18
-    elif x == -4:
-        return -19
+    else:
+        return 0
+
+def to_start_pos(x):
+    column_no = abs(x)
+    # 2なら2, -3なら3
+    if x > 0:
+        return column_no - 1
+    elif x < 0:
+        pos_offset = (width * (height -1)) - 1
+        return column_no + pos_offset
+    
+def to_delta(x):
+    dir = sign(x)
+    #dirは「方向」　プラス方向なら1, マイナス方向なら-1
+    return dir * width
+
+def to_repeat_n(x):
+    return height
+    
+if __name__ =='__main__':
+    rv = to_start_pos(-1)
+    print(rv)
